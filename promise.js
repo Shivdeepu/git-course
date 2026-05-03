@@ -1,0 +1,21 @@
+
+const prm = new Promise(
+    function executorFun(resolve, reject){
+        console.log("Water has started to boil..");
+        setTimeout(() => {
+            console.log("Water has been boiled..");
+            //resolve();
+            reject();
+        },3000)
+    }
+);
+
+prm
+.then (() => {
+    console.log("water successfully boiled..");
+})
+
+.catch(() =>{
+    console.log("water unsuccessfully boiled..");
+
+});
