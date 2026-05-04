@@ -63,3 +63,6 @@ console.log(check);
 
 let checkIndex = a.findIndex((x) => x>70);
 console.log(checkIndex);
+console.log(checkIndex);
+console.log(checkIndex);
+console.log(checkIndex);
